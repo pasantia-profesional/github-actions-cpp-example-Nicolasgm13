@@ -36,12 +36,9 @@ int main() {
         if (std::cin.fail()) {
             limpiarBuffer();
             std::cout << "Opcion invalida. Por favor ingrese un numero." << std::endl;
-            continue;
-        }
-        
-        limpiarBuffer();
-        
-        switch (opcion) {
+        } else {
+            limpiarBuffer();
+            switch (opcion) {
             case 1: {
                 tienda.mostrarTodosProductos();
                 break;
@@ -125,7 +122,8 @@ int main() {
                 std::cout << "Opcion invalida. Por favor seleccione una opcion del 1 al 6." << std::endl;
                 break;
             }
-        }
+         }
+        } 
     }
     
     return 0;
