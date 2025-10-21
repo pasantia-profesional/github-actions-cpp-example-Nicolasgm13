@@ -1,3 +1,5 @@
+// Prueba inicial para activar GitHub Actions - Nicolasgm13
+
 #include "Tienda.h"
 #include <iostream>
 #include <limits>
